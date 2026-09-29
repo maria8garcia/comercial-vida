@@ -1,0 +1,29 @@
+2026-09-21 00:16:33,269 - INFO - Fechas extraídas: 84
+2026-09-21 00:16:33,270 - INFO - Productos extraídos: 100
+2026-09-21 00:16:33,270 - INFO - Clientes extraídos: 200
+2026-09-21 00:16:33,270 - INFO - Empleados extraídos: 100
+2026-09-21 00:16:33,270 - INFO - Detalles de venta extraídos: 100
+2026-09-21 00:16:33,280 - INFO - Transformación completada
+2026-09-21 00:16:33,281 - INFO - Registros preparados para FactVenta: 100
+2026-09-21 00:16:33,553 - INFO - Iniciando carga de dimensiones
+2026-09-21 00:16:33,639 - INFO - DimFecha cargada: 84
+2026-09-21 00:16:33,639 - INFO - DimProducto cargada: 100
+2026-09-21 00:16:33,640 - INFO - DimCliente cargada: 200
+2026-09-21 00:16:33,640 - INFO - DimEmpleado cargada: 100
+2026-09-21 00:16:33,681 - INFO - FactVenta cargada: 100 registros
+2026-09-21 00:16:33,686 - INFO - VALIDACIÓN REGISTROS: Fuente=100 | DW=100
+2026-09-21 00:16:33,686 - INFO - VALIDACIÓN UNIDADES: Fuente=307 | DW=307
+2026-09-21 00:16:33,686 - INFO - VALIDACIÓN TOTAL: Fuente=75953.9 | DW=75953.9
+2026-09-21 00:16:33,686 - INFO - ETL FINALIZADO CORRECTAMENTE
+2026-09-21 00:16:33,687 - INFO -    IdDetalleVenta  IdVenta       Fecha IdCliente  IdEmpleado IdProducto  PrecioUnitario  Cantidad  ImporteVenta
+0               1        1  2026-08-22    CLE087          33      PR001            28.7         3          86.1
+1               2        2  2026-05-31    CLE059          39      PR002            42.4         3         127.2
+2               3        3  2026-08-20    CLE062          13      PR003            56.1         5         280.5
+3               4        4  2026-04-20    CLN076          18      PR004            69.8         5         349.0
+4               5        5  2026-04-18    CLN039          93      PR005            83.5         5         417.5
+2026-09-21 00:16:33,704 - INFO -    IdDetalleVenta  PrecioUnitario  Cantidad  ImporteVenta
+0               1            28.7         3          86.1
+1               2            42.4         3         127.2
+2               3            56.1         5         280.5
+3               4            69.8         5         349.0
+4               5            83.5         5         417.5

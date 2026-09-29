@@ -1,0 +1,2102 @@
+[
+  {
+    "idVenta": 1,
+    "fecha": "2026-08-22",
+    "idCliente": "CLE087",
+    "idEmpleado": 33,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 1,
+        "idProducto": "PR001",
+        "precioUnitario": 28.7,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 1,
+      "fecha": "2026-08-22",
+      "monto": 86.1,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 2,
+    "fecha": "2026-05-31",
+    "idCliente": "CLE059",
+    "idEmpleado": 39,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 2,
+        "idProducto": "PR002",
+        "precioUnitario": 42.4,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 2,
+      "fecha": "2026-05-31",
+      "monto": 127.2,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 3,
+    "fecha": "2026-08-20",
+    "idCliente": "CLE062",
+    "idEmpleado": 13,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 3,
+        "idProducto": "PR003",
+        "precioUnitario": 56.1,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 3,
+      "fecha": "2026-08-20",
+      "monto": 280.5,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 4,
+    "fecha": "2026-04-20",
+    "idCliente": "CLN076",
+    "idEmpleado": 18,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 4,
+        "idProducto": "PR004",
+        "precioUnitario": 69.8,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 4,
+      "fecha": "2026-04-20",
+      "monto": 349.0,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 5,
+    "fecha": "2026-04-18",
+    "idCliente": "CLN039",
+    "idEmpleado": 93,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 5,
+        "idProducto": "PR005",
+        "precioUnitario": 83.5,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 5,
+      "fecha": "2026-04-18",
+      "monto": 417.5,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 6,
+    "fecha": "2026-05-11",
+    "idCliente": "CLN041",
+    "idEmpleado": 7,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 6,
+        "idProducto": "PR006",
+        "precioUnitario": 97.2,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 6,
+      "fecha": "2026-05-11",
+      "monto": 388.8,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 7,
+    "fecha": "2026-03-30",
+    "idCliente": "CLN016",
+    "idEmpleado": 79,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 7,
+        "idProducto": "PR007",
+        "precioUnitario": 110.9,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 7,
+      "fecha": "2026-03-30",
+      "monto": 332.7,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 8,
+    "fecha": "2026-01-31",
+    "idCliente": "CLN022",
+    "idEmpleado": 85,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 8,
+        "idProducto": "PR008",
+        "precioUnitario": 124.6,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 8,
+      "fecha": "2026-01-31",
+      "monto": 623.0,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 9,
+    "fecha": "2026-02-27",
+    "idCliente": "CLN084",
+    "idEmpleado": 16,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 9,
+        "idProducto": "PR009",
+        "precioUnitario": 138.3,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 9,
+      "fecha": "2026-02-27",
+      "monto": 553.2,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 10,
+    "fecha": "2026-07-21",
+    "idCliente": "CLE094",
+    "idEmpleado": 66,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 10,
+        "idProducto": "PR010",
+        "precioUnitario": 152.0,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 10,
+      "fecha": "2026-07-21",
+      "monto": 608.0,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 11,
+    "fecha": "2026-07-05",
+    "idCliente": "CLN032",
+    "idEmpleado": 4,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 11,
+        "idProducto": "PR011",
+        "precioUnitario": 165.7,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 11,
+      "fecha": "2026-07-05",
+      "monto": 165.7,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 12,
+    "fecha": "2026-08-04",
+    "idCliente": "CLE053",
+    "idEmpleado": 50,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 12,
+        "idProducto": "PR012",
+        "precioUnitario": 179.4,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 12,
+      "fecha": "2026-08-04",
+      "monto": 358.8,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 13,
+    "fecha": "2026-03-26",
+    "idCliente": "CLN071",
+    "idEmpleado": 18,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 13,
+        "idProducto": "PR013",
+        "precioUnitario": 193.1,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 13,
+      "fecha": "2026-03-26",
+      "monto": 965.5,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 14,
+    "fecha": "2026-06-24",
+    "idCliente": "CLN018",
+    "idEmpleado": 19,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 14,
+        "idProducto": "PR014",
+        "precioUnitario": 206.8,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 14,
+      "fecha": "2026-06-24",
+      "monto": 827.2,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 15,
+    "fecha": "2026-04-25",
+    "idCliente": "CLN003",
+    "idEmpleado": 10,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 15,
+        "idProducto": "PR015",
+        "precioUnitario": 220.5,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 15,
+      "fecha": "2026-04-25",
+      "monto": 661.5,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 16,
+    "fecha": "2026-06-11",
+    "idCliente": "CLE059",
+    "idEmpleado": 99,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 16,
+        "idProducto": "PR016",
+        "precioUnitario": 234.2,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 16,
+      "fecha": "2026-06-11",
+      "monto": 1171.0,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 17,
+    "fecha": "2026-02-14",
+    "idCliente": "CLE015",
+    "idEmpleado": 47,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 17,
+        "idProducto": "PR017",
+        "precioUnitario": 247.9,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 17,
+      "fecha": "2026-02-14",
+      "monto": 495.8,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 18,
+    "fecha": "2026-01-16",
+    "idCliente": "CLN027",
+    "idEmpleado": 22,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 18,
+        "idProducto": "PR018",
+        "precioUnitario": 261.6,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 18,
+      "fecha": "2026-01-16",
+      "monto": 1046.4,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 19,
+    "fecha": "2026-05-22",
+    "idCliente": "CLN035",
+    "idEmpleado": 63,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 19,
+        "idProducto": "PR019",
+        "precioUnitario": 275.3,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 19,
+      "fecha": "2026-05-22",
+      "monto": 1101.2,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 20,
+    "fecha": "2026-01-18",
+    "idCliente": "CLE035",
+    "idEmpleado": 27,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 20,
+        "idProducto": "PR020",
+        "precioUnitario": 289.0,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 20,
+      "fecha": "2026-01-18",
+      "monto": 1156.0,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 21,
+    "fecha": "2026-03-12",
+    "idCliente": "CLN011",
+    "idEmpleado": 24,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 21,
+        "idProducto": "PR021",
+        "precioUnitario": 302.7,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 21,
+      "fecha": "2026-03-12",
+      "monto": 605.4,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 22,
+    "fecha": "2026-06-07",
+    "idCliente": "CLN068",
+    "idEmpleado": 63,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 22,
+        "idProducto": "PR022",
+        "precioUnitario": 316.4,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 22,
+      "fecha": "2026-06-07",
+      "monto": 1265.6,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 23,
+    "fecha": "2026-01-09",
+    "idCliente": "CLN037",
+    "idEmpleado": 53,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 23,
+        "idProducto": "PR023",
+        "precioUnitario": 330.1,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 23,
+      "fecha": "2026-01-09",
+      "monto": 660.2,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 24,
+    "fecha": "2026-05-11",
+    "idCliente": "CLN004",
+    "idEmpleado": 66,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 24,
+        "idProducto": "PR024",
+        "precioUnitario": 343.8,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 24,
+      "fecha": "2026-05-11",
+      "monto": 1719.0,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 25,
+    "fecha": "2026-03-04",
+    "idCliente": "CLE041",
+    "idEmpleado": 5,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 25,
+        "idProducto": "PR025",
+        "precioUnitario": 357.5,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 25,
+      "fecha": "2026-03-04",
+      "monto": 1787.5,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 26,
+    "fecha": "2026-08-26",
+    "idCliente": "CLE035",
+    "idEmpleado": 56,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 26,
+        "idProducto": "PR026",
+        "precioUnitario": 371.2,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 26,
+      "fecha": "2026-08-26",
+      "monto": 371.2,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 27,
+    "fecha": "2026-04-12",
+    "idCliente": "CLE069",
+    "idEmpleado": 56,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 27,
+        "idProducto": "PR027",
+        "precioUnitario": 384.9,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 27,
+      "fecha": "2026-04-12",
+      "monto": 384.9,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 28,
+    "fecha": "2026-05-20",
+    "idCliente": "CLE065",
+    "idEmpleado": 75,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 28,
+        "idProducto": "PR028",
+        "precioUnitario": 398.6,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 28,
+      "fecha": "2026-05-20",
+      "monto": 1993.0,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 29,
+    "fecha": "2026-01-12",
+    "idCliente": "CLE046",
+    "idEmpleado": 91,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 29,
+        "idProducto": "PR029",
+        "precioUnitario": 412.3,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 29,
+      "fecha": "2026-01-12",
+      "monto": 2061.5,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 30,
+    "fecha": "2026-02-18",
+    "idCliente": "CLE056",
+    "idEmpleado": 62,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 30,
+        "idProducto": "PR030",
+        "precioUnitario": 426.0,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 30,
+      "fecha": "2026-02-18",
+      "monto": 2130.0,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 31,
+    "fecha": "2026-01-25",
+    "idCliente": "CLN058",
+    "idEmpleado": 8,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 31,
+        "idProducto": "PR031",
+        "precioUnitario": 439.7,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 31,
+      "fecha": "2026-01-25",
+      "monto": 439.7,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 32,
+    "fecha": "2026-02-21",
+    "idCliente": "CLE010",
+    "idEmpleado": 89,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 32,
+        "idProducto": "PR032",
+        "precioUnitario": 453.4,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 32,
+      "fecha": "2026-02-21",
+      "monto": 1813.6,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 33,
+    "fecha": "2026-05-14",
+    "idCliente": "CLE036",
+    "idEmpleado": 85,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 33,
+        "idProducto": "PR033",
+        "precioUnitario": 467.1,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 33,
+      "fecha": "2026-05-14",
+      "monto": 2335.5,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 34,
+    "fecha": "2026-03-06",
+    "idCliente": "CLE022",
+    "idEmpleado": 100,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 34,
+        "idProducto": "PR034",
+        "precioUnitario": 480.8,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 34,
+      "fecha": "2026-03-06",
+      "monto": 2404.0,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 35,
+    "fecha": "2026-04-17",
+    "idCliente": "CLE093",
+    "idEmpleado": 12,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 35,
+        "idProducto": "PR035",
+        "precioUnitario": 494.5,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 35,
+      "fecha": "2026-04-17",
+      "monto": 494.5,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 36,
+    "fecha": "2026-02-16",
+    "idCliente": "CLN070",
+    "idEmpleado": 40,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 36,
+        "idProducto": "PR036",
+        "precioUnitario": 508.2,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 36,
+      "fecha": "2026-02-16",
+      "monto": 508.2,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 37,
+    "fecha": "2026-08-13",
+    "idCliente": "CLE034",
+    "idEmpleado": 19,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 37,
+        "idProducto": "PR037",
+        "precioUnitario": 521.9,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 37,
+      "fecha": "2026-08-13",
+      "monto": 521.9,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 38,
+    "fecha": "2026-01-11",
+    "idCliente": "CLN044",
+    "idEmpleado": 58,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 38,
+        "idProducto": "PR038",
+        "precioUnitario": 15.6,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 38,
+      "fecha": "2026-01-11",
+      "monto": 15.6,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 39,
+    "fecha": "2026-04-27",
+    "idCliente": "CLE053",
+    "idEmpleado": 77,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 39,
+        "idProducto": "PR039",
+        "precioUnitario": 29.3,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 39,
+      "fecha": "2026-04-27",
+      "monto": 58.6,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 40,
+    "fecha": "2026-02-16",
+    "idCliente": "CLE036",
+    "idEmpleado": 47,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 40,
+        "idProducto": "PR040",
+        "precioUnitario": 43.0,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 40,
+      "fecha": "2026-02-16",
+      "monto": 43.0,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 41,
+    "fecha": "2026-03-03",
+    "idCliente": "CLN081",
+    "idEmpleado": 5,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 41,
+        "idProducto": "PR041",
+        "precioUnitario": 56.7,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 41,
+      "fecha": "2026-03-03",
+      "monto": 56.7,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 42,
+    "fecha": "2026-01-31",
+    "idCliente": "CLE042",
+    "idEmpleado": 68,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 42,
+        "idProducto": "PR042",
+        "precioUnitario": 70.4,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 42,
+      "fecha": "2026-01-31",
+      "monto": 281.6,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 43,
+    "fecha": "2026-02-13",
+    "idCliente": "CLN069",
+    "idEmpleado": 92,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 43,
+        "idProducto": "PR043",
+        "precioUnitario": 84.1,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 43,
+      "fecha": "2026-02-13",
+      "monto": 336.4,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 44,
+    "fecha": "2026-07-12",
+    "idCliente": "CLE032",
+    "idEmpleado": 28,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 44,
+        "idProducto": "PR044",
+        "precioUnitario": 97.8,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 44,
+      "fecha": "2026-07-12",
+      "monto": 293.4,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 45,
+    "fecha": "2026-04-30",
+    "idCliente": "CLE012",
+    "idEmpleado": 42,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 45,
+        "idProducto": "PR045",
+        "precioUnitario": 111.5,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 45,
+      "fecha": "2026-04-30",
+      "monto": 223.0,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 46,
+    "fecha": "2026-03-16",
+    "idCliente": "CLE005",
+    "idEmpleado": 22,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 46,
+        "idProducto": "PR046",
+        "precioUnitario": 125.2,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 46,
+      "fecha": "2026-03-16",
+      "monto": 375.6,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 47,
+    "fecha": "2026-02-14",
+    "idCliente": "CLN098",
+    "idEmpleado": 59,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 47,
+        "idProducto": "PR047",
+        "precioUnitario": 138.9,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 47,
+      "fecha": "2026-02-14",
+      "monto": 277.8,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 48,
+    "fecha": "2026-02-15",
+    "idCliente": "CLE023",
+    "idEmpleado": 5,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 48,
+        "idProducto": "PR048",
+        "precioUnitario": 152.6,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 48,
+      "fecha": "2026-02-15",
+      "monto": 610.4,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 49,
+    "fecha": "2026-08-19",
+    "idCliente": "CLE043",
+    "idEmpleado": 19,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 49,
+        "idProducto": "PR049",
+        "precioUnitario": 166.3,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 49,
+      "fecha": "2026-08-19",
+      "monto": 332.6,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 50,
+    "fecha": "2026-06-04",
+    "idCliente": "CLN088",
+    "idEmpleado": 63,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 50,
+        "idProducto": "PR050",
+        "precioUnitario": 180.0,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 50,
+      "fecha": "2026-06-04",
+      "monto": 540.0,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 51,
+    "fecha": "2026-01-26",
+    "idCliente": "CLE073",
+    "idEmpleado": 12,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 51,
+        "idProducto": "PR051",
+        "precioUnitario": 193.7,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 51,
+      "fecha": "2026-01-26",
+      "monto": 387.4,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 52,
+    "fecha": "2026-08-30",
+    "idCliente": "CLE041",
+    "idEmpleado": 74,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 52,
+        "idProducto": "PR052",
+        "precioUnitario": 207.4,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 52,
+      "fecha": "2026-08-30",
+      "monto": 622.2,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 53,
+    "fecha": "2026-07-05",
+    "idCliente": "CLE081",
+    "idEmpleado": 47,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 53,
+        "idProducto": "PR053",
+        "precioUnitario": 221.1,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 53,
+      "fecha": "2026-07-05",
+      "monto": 884.4,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 54,
+    "fecha": "2026-05-31",
+    "idCliente": "CLE053",
+    "idEmpleado": 48,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 54,
+        "idProducto": "PR054",
+        "precioUnitario": 234.8,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 54,
+      "fecha": "2026-05-31",
+      "monto": 234.8,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 55,
+    "fecha": "2026-05-14",
+    "idCliente": "CLE050",
+    "idEmpleado": 42,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 55,
+        "idProducto": "PR055",
+        "precioUnitario": 248.5,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 55,
+      "fecha": "2026-05-14",
+      "monto": 1242.5,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 56,
+    "fecha": "2026-02-11",
+    "idCliente": "CLN005",
+    "idEmpleado": 100,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 56,
+        "idProducto": "PR056",
+        "precioUnitario": 262.2,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 56,
+      "fecha": "2026-02-11",
+      "monto": 262.2,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 57,
+    "fecha": "2026-06-10",
+    "idCliente": "CLN046",
+    "idEmpleado": 96,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 57,
+        "idProducto": "PR057",
+        "precioUnitario": 275.9,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 57,
+      "fecha": "2026-06-10",
+      "monto": 1103.6,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 58,
+    "fecha": "2026-08-25",
+    "idCliente": "CLE052",
+    "idEmpleado": 54,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 58,
+        "idProducto": "PR058",
+        "precioUnitario": 289.6,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 58,
+      "fecha": "2026-08-25",
+      "monto": 1448.0,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 59,
+    "fecha": "2026-01-26",
+    "idCliente": "CLN087",
+    "idEmpleado": 17,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 59,
+        "idProducto": "PR059",
+        "precioUnitario": 303.3,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 59,
+      "fecha": "2026-01-26",
+      "monto": 1213.2,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 60,
+    "fecha": "2026-02-05",
+    "idCliente": "CLE093",
+    "idEmpleado": 92,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 60,
+        "idProducto": "PR060",
+        "precioUnitario": 317.0,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 60,
+      "fecha": "2026-02-05",
+      "monto": 1585.0,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 61,
+    "fecha": "2026-03-14",
+    "idCliente": "CLE065",
+    "idEmpleado": 91,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 61,
+        "idProducto": "PR061",
+        "precioUnitario": 330.7,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 61,
+      "fecha": "2026-03-14",
+      "monto": 661.4,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 62,
+    "fecha": "2026-04-16",
+    "idCliente": "CLN050",
+    "idEmpleado": 82,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 62,
+        "idProducto": "PR062",
+        "precioUnitario": 344.4,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 62,
+      "fecha": "2026-04-16",
+      "monto": 1033.2,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 63,
+    "fecha": "2026-06-08",
+    "idCliente": "CLN039",
+    "idEmpleado": 14,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 63,
+        "idProducto": "PR063",
+        "precioUnitario": 358.1,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 63,
+      "fecha": "2026-06-08",
+      "monto": 1432.4,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 64,
+    "fecha": "2026-03-10",
+    "idCliente": "CLN097",
+    "idEmpleado": 96,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 64,
+        "idProducto": "PR064",
+        "precioUnitario": 371.8,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 64,
+      "fecha": "2026-03-10",
+      "monto": 743.6,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 65,
+    "fecha": "2026-03-29",
+    "idCliente": "CLN009",
+    "idEmpleado": 9,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 65,
+        "idProducto": "PR065",
+        "precioUnitario": 385.5,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 65,
+      "fecha": "2026-03-29",
+      "monto": 1927.5,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 66,
+    "fecha": "2026-04-13",
+    "idCliente": "CLN016",
+    "idEmpleado": 5,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 66,
+        "idProducto": "PR066",
+        "precioUnitario": 399.2,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 66,
+      "fecha": "2026-04-13",
+      "monto": 1596.8,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 67,
+    "fecha": "2026-05-15",
+    "idCliente": "CLN072",
+    "idEmpleado": 81,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 67,
+        "idProducto": "PR067",
+        "precioUnitario": 412.9,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 67,
+      "fecha": "2026-05-15",
+      "monto": 412.9,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 68,
+    "fecha": "2026-06-02",
+    "idCliente": "CLE022",
+    "idEmpleado": 86,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 68,
+        "idProducto": "PR068",
+        "precioUnitario": 426.6,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 68,
+      "fecha": "2026-06-02",
+      "monto": 426.6,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 69,
+    "fecha": "2026-02-02",
+    "idCliente": "CLN013",
+    "idEmpleado": 42,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 69,
+        "idProducto": "PR069",
+        "precioUnitario": 440.3,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 69,
+      "fecha": "2026-02-02",
+      "monto": 1761.2,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 70,
+    "fecha": "2026-03-20",
+    "idCliente": "CLN026",
+    "idEmpleado": 42,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 70,
+        "idProducto": "PR070",
+        "precioUnitario": 454.0,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 70,
+      "fecha": "2026-03-20",
+      "monto": 1362.0,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 71,
+    "fecha": "2026-06-27",
+    "idCliente": "CLE040",
+    "idEmpleado": 57,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 71,
+        "idProducto": "PR071",
+        "precioUnitario": 467.7,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 71,
+      "fecha": "2026-06-27",
+      "monto": 467.7,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 72,
+    "fecha": "2026-05-21",
+    "idCliente": "CLE039",
+    "idEmpleado": 68,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 72,
+        "idProducto": "PR072",
+        "precioUnitario": 481.4,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 72,
+      "fecha": "2026-05-21",
+      "monto": 2407.0,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 73,
+    "fecha": "2026-08-05",
+    "idCliente": "CLE039",
+    "idEmpleado": 1,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 73,
+        "idProducto": "PR073",
+        "precioUnitario": 495.1,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 73,
+      "fecha": "2026-08-05",
+      "monto": 2475.5,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 74,
+    "fecha": "2026-03-17",
+    "idCliente": "CLN020",
+    "idEmpleado": 32,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 74,
+        "idProducto": "PR074",
+        "precioUnitario": 508.8,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 74,
+      "fecha": "2026-03-17",
+      "monto": 508.8,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 75,
+    "fecha": "2026-05-28",
+    "idCliente": "CLE010",
+    "idEmpleado": 93,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 75,
+        "idProducto": "PR075",
+        "precioUnitario": 522.5,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 75,
+      "fecha": "2026-05-28",
+      "monto": 522.5,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 76,
+    "fecha": "2026-05-13",
+    "idCliente": "CLN040",
+    "idEmpleado": 26,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 76,
+        "idProducto": "PR076",
+        "precioUnitario": 16.2,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 76,
+      "fecha": "2026-05-13",
+      "monto": 48.6,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 77,
+    "fecha": "2026-06-29",
+    "idCliente": "CLE058",
+    "idEmpleado": 76,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 77,
+        "idProducto": "PR077",
+        "precioUnitario": 29.9,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 77,
+      "fecha": "2026-06-29",
+      "monto": 119.6,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 78,
+    "fecha": "2026-06-25",
+    "idCliente": "CLN026",
+    "idEmpleado": 59,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 78,
+        "idProducto": "PR078",
+        "precioUnitario": 43.6,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 78,
+      "fecha": "2026-06-25",
+      "monto": 130.8,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 79,
+    "fecha": "2026-08-13",
+    "idCliente": "CLE068",
+    "idEmpleado": 83,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 79,
+        "idProducto": "PR079",
+        "precioUnitario": 57.3,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 79,
+      "fecha": "2026-08-13",
+      "monto": 114.6,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 80,
+    "fecha": "2026-04-15",
+    "idCliente": "CLN099",
+    "idEmpleado": 84,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 80,
+        "idProducto": "PR080",
+        "precioUnitario": 71.0,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 80,
+      "fecha": "2026-04-15",
+      "monto": 213.0,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 81,
+    "fecha": "2026-04-21",
+    "idCliente": "CLE011",
+    "idEmpleado": 58,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 81,
+        "idProducto": "PR081",
+        "precioUnitario": 84.7,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 81,
+      "fecha": "2026-04-21",
+      "monto": 84.7,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 82,
+    "fecha": "2026-05-17",
+    "idCliente": "CLE065",
+    "idEmpleado": 48,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 82,
+        "idProducto": "PR082",
+        "precioUnitario": 98.4,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 82,
+      "fecha": "2026-05-17",
+      "monto": 295.2,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 83,
+    "fecha": "2026-05-01",
+    "idCliente": "CLE005",
+    "idEmpleado": 49,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 83,
+        "idProducto": "PR083",
+        "precioUnitario": 112.1,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 83,
+      "fecha": "2026-05-01",
+      "monto": 112.1,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 84,
+    "fecha": "2026-07-20",
+    "idCliente": "CLE016",
+    "idEmpleado": 57,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 84,
+        "idProducto": "PR084",
+        "precioUnitario": 125.8,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 84,
+      "fecha": "2026-07-20",
+      "monto": 377.4,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 85,
+    "fecha": "2026-06-19",
+    "idCliente": "CLE076",
+    "idEmpleado": 35,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 85,
+        "idProducto": "PR085",
+        "precioUnitario": 139.5,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 85,
+      "fecha": "2026-06-19",
+      "monto": 558.0,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 86,
+    "fecha": "2026-03-04",
+    "idCliente": "CLN015",
+    "idEmpleado": 62,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 86,
+        "idProducto": "PR086",
+        "precioUnitario": 153.2,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 86,
+      "fecha": "2026-03-04",
+      "monto": 459.6,
+      "metodoPago": "Transferencia",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 87,
+    "fecha": "2026-07-07",
+    "idCliente": "CLN079",
+    "idEmpleado": 10,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 87,
+        "idProducto": "PR087",
+        "precioUnitario": 166.9,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 87,
+      "fecha": "2026-07-07",
+      "monto": 667.6,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 88,
+    "fecha": "2026-02-24",
+    "idCliente": "CLN094",
+    "idEmpleado": 6,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 88,
+        "idProducto": "PR088",
+        "precioUnitario": 180.6,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 88,
+      "fecha": "2026-02-24",
+      "monto": 361.2,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 89,
+    "fecha": "2026-01-21",
+    "idCliente": "CLN048",
+    "idEmpleado": 34,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 89,
+        "idProducto": "PR089",
+        "precioUnitario": 194.3,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 89,
+      "fecha": "2026-01-21",
+      "monto": 971.5,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 90,
+    "fecha": "2026-03-17",
+    "idCliente": "CLN007",
+    "idEmpleado": 92,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 90,
+        "idProducto": "PR090",
+        "precioUnitario": 208.0,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 90,
+      "fecha": "2026-03-17",
+      "monto": 1040.0,
+      "metodoPago": "Plin",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 91,
+    "fecha": "2026-08-05",
+    "idCliente": "CLN011",
+    "idEmpleado": 73,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 91,
+        "idProducto": "PR091",
+        "precioUnitario": 221.7,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 91,
+      "fecha": "2026-08-05",
+      "monto": 221.7,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 92,
+    "fecha": "2026-08-11",
+    "idCliente": "CLE034",
+    "idEmpleado": 79,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 92,
+        "idProducto": "PR092",
+        "precioUnitario": 235.4,
+        "cantidad": 5
+      }
+    ],
+    "pago": {
+      "idPago": 92,
+      "fecha": "2026-08-11",
+      "monto": 1177.0,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 93,
+    "fecha": "2026-02-07",
+    "idCliente": "CLN001",
+    "idEmpleado": 1,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 93,
+        "idProducto": "PR093",
+        "precioUnitario": 249.1,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 93,
+      "fecha": "2026-02-07",
+      "monto": 498.2,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 94,
+    "fecha": "2026-05-15",
+    "idCliente": "CLN088",
+    "idEmpleado": 19,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 94,
+        "idProducto": "PR094",
+        "precioUnitario": 262.8,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 94,
+      "fecha": "2026-05-15",
+      "monto": 788.4,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 95,
+    "fecha": "2026-02-10",
+    "idCliente": "CLN061",
+    "idEmpleado": 34,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 95,
+        "idProducto": "PR095",
+        "precioUnitario": 276.5,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 95,
+      "fecha": "2026-02-10",
+      "monto": 829.5,
+      "metodoPago": "Efectivo",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 96,
+    "fecha": "2026-06-29",
+    "idCliente": "CLE035",
+    "idEmpleado": 79,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 96,
+        "idProducto": "PR096",
+        "precioUnitario": 290.2,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 96,
+      "fecha": "2026-06-29",
+      "monto": 290.2,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 97,
+    "fecha": "2026-02-10",
+    "idCliente": "CLN004",
+    "idEmpleado": 17,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 97,
+        "idProducto": "PR097",
+        "precioUnitario": 303.9,
+        "cantidad": 4
+      }
+    ],
+    "pago": {
+      "idPago": 97,
+      "fecha": "2026-02-10",
+      "monto": 1215.6,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 98,
+    "fecha": "2026-03-06",
+    "idCliente": "CLE100",
+    "idEmpleado": 90,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 98,
+        "idProducto": "PR098",
+        "precioUnitario": 317.6,
+        "cantidad": 1
+      }
+    ],
+    "pago": {
+      "idPago": 98,
+      "fecha": "2026-03-06",
+      "monto": 317.6,
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 99,
+    "fecha": "2026-08-16",
+    "idCliente": "CLE081",
+    "idEmpleado": 64,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 99,
+        "idProducto": "PR099",
+        "precioUnitario": 331.3,
+        "cantidad": 3
+      }
+    ],
+    "pago": {
+      "idPago": 99,
+      "fecha": "2026-08-16",
+      "monto": 993.9,
+      "metodoPago": "Yape",
+      "estado": "Pagado"
+    }
+  },
+  {
+    "idVenta": 100,
+    "fecha": "2026-08-29",
+    "idCliente": "CLE016",
+    "idEmpleado": 47,
+    "detalleVenta": [
+      {
+        "idDetalleVenta": 100,
+        "idProducto": "PR100",
+        "precioUnitario": 345.0,
+        "cantidad": 2
+      }
+    ],
+    "pago": {
+      "idPago": 100,
+      "fecha": "2026-08-29",
+      "monto": 690.0,
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Pagado"
+    }
+  }
+]

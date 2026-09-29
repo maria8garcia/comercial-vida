@@ -1,0 +1,74 @@
+2.1 PROCEDIMIENTOS
+
+✓ sp_registrar_venta_segura
+  RF6, RF11, RF12
+  RN09, RN10, RN11
+  RNF9, RNF11, RNF13
+
++ sp_registrar_compra_segura
+  RF8, RF9, RF11, RF12
+  RN05, RN07, RN08, RN09
+
++ sp_buscar_productos
+  RF5
+
++ sp_historial_ventas
+  RF7
+
++ sp_cierre_diario
+  RN13
+2.2 FUNCIONES
+
+✓ fn_total_venta
+  RF6
+
++ fn_estado_stock
+  RF13, RN04
+
++ fn_total_pagado_venta
+  RF11, RN09
+
++ fn_saldo_venta
+  RF6, RF11, RN09
+2.3 TRIGGERS
+
+✓ trg_validar_stock_venta
+  RF4, RNF12
+
+✓ trg_disminuir_stock_venta
+  RF4
+
+✓ trg_aumentar_stock_compra
+  RF9, RN08
+
++ trg_validar_producto
+  RF14
+  RN01, RN02, RN03
+
+MODIFICAR:
+trg_auditar_stock
+       ↓
+trg_auditar_producto
+
+RF19, RF20
+RN12
+2.4 TRANSACCIONES
+
+✓ Transacción de venta
++ Transacción de compra
+2.5 AUDITORÍA
+
+MODIFICAR:
+AUDITORIA_STOCK
+        ↓
+AUDITORIA_PRODUCTO
+
+Stock
+Precio
+Datos importantes del producto
+2.6 CONTROL DE EXCEPCIONES
+
+✓ ROLLBACK venta
++ ROLLBACK compra
+✓ SIGNAL stock insuficiente
++ SIGNAL datos/precios inválidos

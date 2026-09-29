@@ -1,0 +1,199 @@
+use("COMERCIAL_VIDA_NOSQL")
+switched to db COMERCIAL_VIDA_NOSQL
+db["ventas"].find()
+
+//CREATE 
+db.ventas.insertOne({
+    idVenta: 101,
+    fecha: "2026-09-18",
+    idCliente: "CLE087",
+    idEmpleado: 33,
+
+    detalleVenta: [
+        {
+            idDetalleVenta: 101,
+            idProducto: "PR001",
+            precioUnitario: 28.70,
+            cantidad: 2
+        }
+    ],
+
+    pago: {
+        idPago: 201,
+        fecha: "2026-09-18",
+        monto: 57.40,
+        metodoPago: "Plin",
+        estado: "Pagado"
+    }
+});
+
+{
+  acknowledged: true,
+  insertedId: ObjectId('6ab15f82b9596add0ccdf0cb')
+}
+
+//READ
+db.ventas.findOne({
+    idVenta: 101
+});
+
+{
+  _id: ObjectId('6ab15f82b9596add0ccdf0cb'),
+  idVenta: 101,
+  fecha: '2026-09-18',
+  idCliente: 'CLE087',
+  idEmpleado: 33,
+  detalleVenta: [
+    {
+      idDetalleVenta: 101,
+      idProducto: 'PR001',
+      precioUnitario: 28.7,
+      cantidad: 2
+    }
+  ],
+  pago: {
+    idPago: 201,
+    fecha: '2026-09-18',
+    monto: 57.4,
+    metodoPago: 'Plin',
+    estado: 'Pagado'
+  }
+}
+
+//UPDATE
+db.ventas.updateOne(
+    { idVenta: 101 },
+    {
+        $set: {
+            "pago.metodoPago": "Efectivo"
+        }
+    }
+);
+
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+db.ventas.findOne(
+    { idVenta: 101 },
+    {
+        idVenta: 1,
+        "pago.metodoPago": 1,
+        _id: 0
+    }
+);
+
+{
+  idVenta: 101,
+  pago: {
+    metodoPago: 'Efectivo'
+  }
+}
+
+//DELETE
+db.ventas.deleteOne({
+    idVenta: 101
+});
+
+{
+  acknowledged: true,
+  deletedCount: 1
+}
+
+
+//PRUEBA DE RENDIMIENTO 
+db.ventas.find({
+    idCliente: "CLE087"
+}).explain("executionStats");
+
+
+ explainVersion: '1',
+  queryPlanner: {
+    namespace: 'COMERCIAL_VIDA_NOSQL.ventas',
+    parsedQuery: {
+      idCliente: {
+        '$eq': 'CLE087'
+      }
+    },
+    indexFilterSet: false,
+    queryHash: 'A9F0C158',
+    planCacheShapeHash: 'A9F0C158',
+    planCacheKey: '68E8F324',
+    optimizationTimeMillis: 0,
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    prunedSimilarIndexes: false,
+    winningPlan: {
+      isCached: false,
+      stage: 'COLLSCAN',
+      filter: {
+        idCliente: {
+          '$eq': 'CLE087'
+        }
+      },
+      nss: 'COMERCIAL_VIDA_NOSQL.ventas',
+      direction: 'forward'
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 1,
+    executionTimeMillis: 0,
+    totalKeysExamined: 0,
+    totalDocsExamined: 100,
+    executionStages: {
+      isCached: false,
+      stage: 'COLLSCAN',
+      filter: {
+        idCliente: {
+          '$eq': 'CLE087'
+        }
+      },
+      nReturned: 1,
+      executionTimeMillisEstimate: 0,
+      works: 101,
+      advanced: 1,
+      needTime: 99,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      nss: 'COMERCIAL_VIDA_NOSQL.ventas',
+      direction: 'forward',
+      docsExamined: 100
+    }
+  },
+  queryShapeHash: '6CE6058E03C10B45E8E16D9F8D993E2D654F8954A6D73A66DFDEA6ED76A56DBA',
+  command: {
+    find: 'ventas',
+    filter: {
+      idCliente: 'CLE087'
+    },
+    '$db': 'COMERCIAL_VIDA_NOSQL'
+  },
+  serverInfo: {
+    host: 'ANTONY',
+    port: 27017,
+    version: '8.3.11',
+    gitVersion: 'b8b83d6e6e1aed495578ad8c6f9234ad329c9955'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted',
+    internalQueryPlannerIgnoreIndexWithCollationForRegex: 1
+  },
+  ok: 1
+}
